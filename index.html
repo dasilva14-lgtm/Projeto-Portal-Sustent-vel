@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+</head>
+<body>
+
+<div id="portal-phase">
+    <div class="main-title">
+        <h1>Agro Forte, Futuro Sustentável:<br>Equilíbrio entre Produção e Meio Ambiente</h1>
+    </div>
+    <div style="position: relative; z-index: 10; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; min-height: 70vh; pointer-events: none;">
+        <div style="pointer-events: auto;" id="portal-click-area"></div>
+    </div>
+</div>
+
+<div id="articles-phase">
+    <button class="back-button" id="back-to-portal">✨ Voltar ao Portal</button>
+    <h1 class="page-title-articles">Conhecimento Sustentável</h1>
+    <div class="articles-container">
+        <div class="article-card" id="artigo1">
+            <h2>Transição para a Agricultura Regenerativa</h2>
+            <div class="article-preview">
+                Como grandes fazendas estão recuperando o solo e mantendo a alta produtividade de grãos. Descubra essa revolução verde.
+            </div>
+            <div class="full-article">
+                <h3>O Conceito: O que diferencia o modelo regenerativo?</h3>
+                <p>Diferente da agricultura convencional, que foca apenas em nutrir a planta por meio de insumos químicos sintéticos, a agricultura regenerativa foca em alimentar o solo. O princípio básico é tratar a terra como um organismo vivo. Para grandes fazendas, isso significa aplicar práticas como o plantio direto (sem revirar a terra), o uso de plantas de cobertura para proteger o solo no ecossistema de entressafra e a rotação de culturas. O objetivo final é restaurar a biodiversidade microbiana do solo, aumentando sua capacidade natural de reter água e nutrientes.</p>
+                
+                <h3>O Bolso do Produtor: Viabilidade econômica e redução de custos</h3>
+                <p>A transição para o modelo regenerativo não é apenas uma escolha ecológica, é uma decisão de negócios estratégica. Nos primeiros anos, o produtor pode investir na reestruturação do solo, mas o retorno financeiro vem rapidamente com a redução drástica na compra de fertilizantes químicos e defensivos agrícolas — que costumam ser dolarizados e caros. Solos regenerados tornam-se mais ricos em matéria orgânica, o que significa que as plantas desenvolvem raízes mais profundas e tornam-se muito mais resistentes a períodos prolongados de seca, garantindo a estabilidade da produtividade a longo prazo.</p>
+                
+                <h3>O Impacto Global: Créditos de carbono e exigências de mercado</h3>
+                <p>Grandes fazendas que recuperam seus solos estão se posicionando na vanguarda do mercado internacional. Solos saudáveis e ricos em matéria orgânica funcionam como verdadeiras 'esponjas' de carbono, retirando o CO₂ da atmosfera e fixando-o na terra. Isso abre as portas para que os produtores brasileiros acessem o mercado de créditos de carbono, gerando uma nova linha de receita. Além disso, grandes indústrias globais de alimentos já exigem matérias-primas com baixa pegada ambiental, transformando a sustentabilidade em um passaporte obrigatório para a exportação.</p>
+            </div>
+        </div>
+
+        <div class="article-card" id="artigo2">
+            <h2>Logística Reversa Obrigatória</h2>
+            <div class="article-preview">
+                O desafio das indústrias para recolher e reciclar embalagens pós-consumo (vidros, plásticos e eletrônicos). Entenda as novas regras.
+            </div>
+            <div class="full-article">
+                <h3>A Regra do Jogo: O peso da legislação e das metas governamentais</h3>
+                <p>A logística reversa deixou de ser opcional. No Brasil, decretos e leis estaduais impõem que fabricantes, importadores, distribuidores e comerciantes arquem com a responsabilidade pelo ciclo de vida de seus produtos. Setores como o de embalagens em geral (plásticos, vidros, papéis e metais) e o de eletroeletrônicos precisam comprovar que estão reinserindo uma porcentagem mínima (frequentemente partindo de 22% a mais de 30%) de tudo o que colocam no mercado de volta na cadeia produtiva. Empresas que não cumprem essas metas enfrentam multas pesadas, bloqueio de licenças ambientais e severos danos à reputação.</p>
+                
+                <h3>O Gargalo Operacional: O desafio logístico de rastrear o lixo</h3>
+                <p>O maior desafio da logística reversa não é a reciclagem em si, mas a coleta e o transporte do resíduo pulverizado na sociedade. Diferente da logística tradicional, que leva milhares de produtos de uma fábrica centralizada para as lojas, a logística reversa faz o caminho inverso: precisa recolher milhões de embalagens descartadas individualmente nas casas dos consumidores e concentrá-las novamente. Fazer com que o vidro pesado de uma garrafa ou o plástico de um shampoo saia da lixeira do consumidor e volte para a fábrica de forma economicamente viável exige uma complexa rede de postos de entrega voluntária (PEVs) e parcerias estratégicas.</p>
+                
+                <h3>Inclusão Social e Créditos de Reciclagem: O papel das cooperativas e das notas fiscais</h3>
+                <p>Para vencer o desafio da escala, a indústria nacional depende fundamentalmente dos catadores e das cooperativas de reciclagem, responsáveis pela triagem da maior parte dos resíduos urbanos. Para formalizar e comprovar esse processo perante o governo, o mercado adotou os créditos de reciclagem (ou certificados de reciclagem). Funciona assim: as cooperativas vendem o material reciclado para indústrias e emitem uma nota fiscal. Essa nota é homologada por plataformas independentes e transformada em um crédito, que as grandes marcas compram para comprovar legalmente que financiaram a reciclagem do equivalente às suas embalagens.</p>
+                
+                <h3>A Barreira Econômica: O plástico virgem versus o plástico reciclado</h3>
+                <p>Embora a lei obrigue o recolhimento, a economia de mercado impõe uma barreira severa: muitas vezes, comprar matéria-prima virgem (como o plástico derivado do petróleo) é mais barato do que comprar e processar o material reciclado pós-consumo. O processo de lavar, moer, descontaminar e transportar o resíduo encarece o produto final. O grande desafio atual das indústrias é redesenhar suas embalagens para o ecossistema de 'Design para Reciclagem' (diminuindo o uso de tintas, colas e misturas de plásticos diferentes), tornando o processo de reciclagem mais simples, barato e competitivo frente ao material virgem.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="accessibility-bar">
+    <button class="access-btn" id="darkModeBtn">🌙 Modo Escuro</button>
+    <button class="access-btn" id="readingModeBtn">📖 Modo Leitura</button>
+    <button class="access-btn" id="increaseFontBtn">🔍 A+</button>
+    <button class="access-btn" id="decreaseFontBtn">🔍 A-</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
